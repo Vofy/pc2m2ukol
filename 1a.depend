@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1644362824 source:/home/vofy/Projects/1a/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
