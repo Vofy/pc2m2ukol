@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1644362824 source:/home/vofy/Projects/1a/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1644719702 source:/home/vofy/Projects/PC2M-1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"headers.h"
+
+1644714093 source:/home/vofy/Projects/PC2M-1/common.c
+
+1644719518 source:/home/vofy/Projects/PC2M-1/tasks/1a.c
+
+1644713163 /home/vofy/Projects/PC2M-1/tasks/1a.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1644714033 /home/vofy/Projects/PC2M-1/tasks/1a.h
+
+1644711174 source:/home/vofy/Projects/PC2M-1/tasks/1a.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1644714103 /home/vofy/Projects/PC2M-1/common.h
+
+1644714197 source:/home/vofy/Projects/PC2M-1/1c.c
+
+1644721766 source:/home/vofy/Projects/PC2M-1/tasks/1b.c
+
+1644718254 /home/vofy/Projects/PC2M-1/headers.h
+
+1644721714 source:/home/vofy/Projects/PC2M-1/tasks/1c.c
+
+1644719508 source:/home/vofy/Projects/PC2M-1/tasks/1d.c
+
+1644722195 source:/home/vofy/Projects/PC2M-1/tasks/bonus.c
+
+1644718229 /home/vofy/Projects/PC2M-1/main.h
+
