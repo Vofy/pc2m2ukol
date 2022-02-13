@@ -14,14 +14,16 @@ void taskBonus()
         { 54, 6 }
     }*/
 
+    // Naplnění pole náhodnými čísly
     for (int i = 0; i < points; i++)
     {
         for (int j = 0; j < 2; j++)
         {
-            pointsArray[i][j] = randomInt(0, 99);
+            pointsArray[i][j] = randomInt(0, 20);
         }
     }
 
+    // Vypsání vygenerovaného pole pro kontrolu
     for (int i = 0; i < points; i++)
     {
         printf("P%d: ", i + 1);
@@ -36,13 +38,12 @@ void taskBonus()
     float distancesArray[points][points];
 
     int x, y;
-
     for (int i = 0; i < points; i++)
     {
         for (int j = 0; j < points; j++)
         {
-            x = pointsArray[0][i] - pointsArray[0][j];
-            y = pointsArray[1][i] - pointsArray[1][j];
+            x = pointsArray[i][0] - pointsArray[j][0];
+            y = pointsArray[i][1] - pointsArray[j][1];
 
             distancesArray[i][j] = sqrt(pow(x, 2) + pow(y, 2));
         }

@@ -9,7 +9,7 @@ void task1a()
         array[i] = randomInt(0, 99);
     }
 
-    // Vypsání původního pole pro kontrolu
+    // Vypsání vygenerovaného pole pro kontrolu
     printf("Vygenerovana nahodna cisla:\n");
     for (int i = 0; i < size; i++)
     {

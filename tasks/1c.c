@@ -13,6 +13,7 @@ void task1c()
         }
     }
 
+    // Vypsání vygenerovaného pole pro kontrolu
     printf("Vygenerovana matice:\n");
     for (int i = 0; i < y; i++)
     {

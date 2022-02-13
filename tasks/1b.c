@@ -17,6 +17,7 @@ void task1b()
         }
     }
 
+    // Vypsání vygenerovaného pole pro kontrolu
     printf("Vygenerovana cisla:\n");
     for (int i = 0; i < x; i++)
     {
