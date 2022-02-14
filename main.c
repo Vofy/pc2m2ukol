@@ -7,8 +7,6 @@
 
 int main()
 {
-    srand((unsigned)time(NULL));
-
     int selection;
     //(sizeof(array) / sizeof(int)) - Delka jedno-rozmerneho pole
 
@@ -37,7 +35,8 @@ int main()
             taskBonus();
             break;
         case 6:
-            exit(EXIT_SUCCESS);
+            //exit(EXIT_SUCCESS);
+            return 0;
             break;
         default:
             printf("Není implementováno\n");

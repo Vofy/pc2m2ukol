@@ -1,25 +1,15 @@
 void taskBonus()
 {
     int points = 8;
-
-    float pointsArray[points][2]; /*=
-    {
-        { 5, 10 },
-        { 12, 12 },
-        { 68, 89 },
-        { 41, 21 },
-        { 2, 21 },
-        { 56, 74 },
-        { 86, 36 },
-        { 54, 6 }
-    }*/
+    int x, y;
+    float pointsArray[points][2];
 
     // Naplnění pole náhodnými čísly
     for (int i = 0; i < points; i++)
     {
         for (int j = 0; j < 2; j++)
         {
-            pointsArray[i][j] = randomInt(0, 20);
+            pointsArray[i][j] = randomInt(-20, 20);
         }
     }
 
@@ -37,7 +27,8 @@ void taskBonus()
 
     float distancesArray[points][points];
 
-    int x, y;
+
+    // Výpočet vzdáleností bodů
     for (int i = 0; i < points; i++)
     {
         for (int j = 0; j < points; j++)
@@ -49,9 +40,9 @@ void taskBonus()
         }
     }
 
-    // Print results
+    // Vypsání výsledků do tabulky
 
-    // Header line
+    // První řádek - hlavička
     printf("%10s", "");
     for (int i = 0; i < points; i++)
     {
@@ -59,7 +50,7 @@ void taskBonus()
     }
     printf("\n");
 
-    // Lines
+    // Ostatní řádky
     for (int i = 0; i < points; i++)
     {
         printf("P%2d%4s", i + 1, "");

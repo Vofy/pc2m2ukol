@@ -1,12 +1,13 @@
 void task1d()
 {
-    int a = randomInt(2, 20);
+    const int a = randomInt(2, 20);
+
+    // Vypsání výsledku funkce pro číslo a
     printf("Fib(%d) = %d\n", a, fibonacci(a));
 }
 
+// Funkce pro rekurentní výpočet n-tého prvku Fibbonacciho posloupnsti
 int fibonacci(int n)
 {
-    if (n <= 1)
-        return n;
-    return fibonacci(n - 1) + fibonacci(n - 2);
+    return (n <= 1) ? n : fibonacci(n - 1) + fibonacci(n - 2);
 }

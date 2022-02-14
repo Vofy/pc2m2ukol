@@ -1,7 +1,6 @@
 void task1b()
 {
-    int x = 3, y = 3, z = 3;
-
+    const int x = 3, y = 3, z = 3;
     int sum = 0;
     int array[z][y][x];
 
@@ -32,6 +31,7 @@ void task1b()
         printf("\n");
     }
 
+    // Vypsání sumy pole
     for (int i = 0; i < x; i++)
     {
         for (int j = 0; j < y; j++)

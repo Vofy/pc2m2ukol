@@ -1,6 +1,6 @@
 void task1a()
 {
-    int size = 20;
+    const int size = 20;
     int array[size];
 
     // Naplnění pole náhodnými čísly
