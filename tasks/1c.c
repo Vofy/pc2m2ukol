@@ -1,3 +1,7 @@
+#include <stdio.h>
+
+#include "../headers.h"
+
 void task1c()
 {
     const int x = 2, y = 3;

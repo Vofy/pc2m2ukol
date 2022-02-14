@@ -56,15 +56,19 @@
 	<math.h>
 	"headers.h"
 
-1644879202 /home/vofy/Projects/pc2m1/headers.h
+1644879211 /home/vofy/Projects/pc2m1/headers.h
 
-1644878180 source:/home/vofy/Projects/pc2m1/tasks/1a.c
+1644879785 source:/home/vofy/Projects/pc2m1/tasks/1a.c
+	<stdio.h>
 
-1644878227 source:/home/vofy/Projects/pc2m1/tasks/1b.c
+1644879781 source:/home/vofy/Projects/pc2m1/tasks/1b.c
+	<stdio.h>
 
-1644878774 source:/home/vofy/Projects/pc2m1/tasks/1c.c
+1644879774 source:/home/vofy/Projects/pc2m1/tasks/1c.c
+	<stdio.h>
 
-1644878526 source:/home/vofy/Projects/pc2m1/tasks/1d.c
+1644879816 source:/home/vofy/Projects/pc2m1/tasks/1d.c
+	<stdio.h>
 
 1644878458 source:/home/vofy/Projects/pc2m1/tasks/bonus.c
 

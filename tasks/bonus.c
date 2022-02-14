@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <math.h>
+
+#include "../headers.h"
+
 void taskBonus()
 {
     int points = 8;

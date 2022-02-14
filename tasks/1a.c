@@ -1,3 +1,7 @@
+#include <stdio.h>
+
+#include "../headers.h"
+
 void task1a()
 {
     const int size = 20;
