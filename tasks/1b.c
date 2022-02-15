@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../headers.h"
+#include "../main.h"
 
 void task1b()
 {
@@ -47,5 +47,5 @@ void task1b()
         }
     }
 
-    printf("Suma je %d\n", sum);
+    printf("%sSuma je %d%s\n", CYAN, sum, NC);
 }

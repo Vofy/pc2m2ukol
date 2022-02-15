@@ -34,10 +34,10 @@
 		<Unit filename="common.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="headers.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="main.h" />
 		<Unit filename="tasks/1a.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../headers.h"
+#include "../main.h"
 
 void task1a()
 {
@@ -22,10 +22,10 @@ void task1a()
     printf("\n\n");
 
     // Vypsání pole v opačném pořadí
-    printf("Nahodna cisla v opacnem poradi:\n");
+    printf("%sNahodna cisla v opacnem poradi:\n", CYAN);
     for (int i = size; i > 0; i--)
     {
         printf("%4d", array[i-1]);
     };
-    printf("\n");
+    printf("%s\n", NC);
 }

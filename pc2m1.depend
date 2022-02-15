@@ -44,31 +44,39 @@
 
 1644718229 /home/vofy/Projects/PC2M-1/main.h
 
-1644879192 source:/home/vofy/Projects/pc2m1/common.c
+1644885675 source:/home/vofy/Projects/pc2m1/common.c
 	<stddef.h>
 	<stdlib.h>
 	<time.h>
 
-1644879079 source:/home/vofy/Projects/pc2m1/main.c
+1644886005 source:/home/vofy/Projects/pc2m1/main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
+	"main.h"
+
+1644885503 /home/vofy/Projects/pc2m1/headers.h
+
+1644885588 source:/home/vofy/Projects/pc2m1/tasks/1a.c
+	<stdio.h>
+	"../main.h"
+
+1644885590 source:/home/vofy/Projects/pc2m1/tasks/1b.c
+	<stdio.h>
+	"../main.h"
+
+1644885595 source:/home/vofy/Projects/pc2m1/tasks/1c.c
+	<stdio.h>
+	"../main.h"
+
+1644885598 source:/home/vofy/Projects/pc2m1/tasks/1d.c
+	<stdio.h>
+	"../main.h"
+
+1644885603 source:/home/vofy/Projects/pc2m1/tasks/bonus.c
+	<stdio.h>
 	<math.h>
-	"headers.h"
+	"../main.h"
 
-1644879211 /home/vofy/Projects/pc2m1/headers.h
-
-1644879785 source:/home/vofy/Projects/pc2m1/tasks/1a.c
-	<stdio.h>
-
-1644879781 source:/home/vofy/Projects/pc2m1/tasks/1b.c
-	<stdio.h>
-
-1644879774 source:/home/vofy/Projects/pc2m1/tasks/1c.c
-	<stdio.h>
-
-1644879816 source:/home/vofy/Projects/pc2m1/tasks/1d.c
-	<stdio.h>
-
-1644878458 source:/home/vofy/Projects/pc2m1/tasks/bonus.c
+1644885503 /home/vofy/Projects/pc2m1/main.h
 

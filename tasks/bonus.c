@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "../headers.h"
+#include "../main.h"
 
 void taskBonus()
 {
@@ -48,7 +48,7 @@ void taskBonus()
     // Vypsání výsledků do tabulky
 
     // První řádek - hlavička
-    printf("%10s", "");
+    printf("%s%10s", CYAN, "");
     for (int i = 0; i < points; i++)
     {
         printf("P%2d%7s", i + 1, "");
@@ -65,4 +65,5 @@ void taskBonus()
         }
         printf("\n");
     }
+    printf("%s\n", NC);
 }

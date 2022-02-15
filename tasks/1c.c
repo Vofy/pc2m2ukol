@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../headers.h"
+#include "../main.h"
 
 void task1c()
 {
@@ -40,7 +40,7 @@ void task1c()
     }
 
     // Vypsání transponované matice
-    printf("Transponovana matice:\n");
+    printf("%sTransponovana matice:\n", CYAN);
     for (int i = 0; i < x; i++)
     {
         for (int j = 0; j < y; j++)
@@ -49,4 +49,5 @@ void task1c()
         }
         printf("\n");
     }
+    printf("%s\n", NC);
 }
